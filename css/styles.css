@@ -1,0 +1,144 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* index styles  */
+#content {
+  font-size: 1.1rem;
+}
+
+h1 {
+  margin: 0 0 1em;
+}
+
+.bootstrap,
+.handlebars {
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+  height: 70vh;
+  letter-spacing: 2px;
+}
+
+.bootstrap img,
+.handlebars img {
+  margin: 2em auto;
+  max-width: 40%;
+  display: block;
+}
+
+.bootstrap {
+  background: #6f42c1;
+}
+
+.handlebars {
+  background: #e61;
+}
+
+.continue {
+  text-align: center;
+  padding: 2em;
+}
+
+.continue .next_page {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #e61;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  #content {
+    font-size: 1.4rem;
+  }
+  #content .bootstrap,
+  #content .handlebars {
+    height: 80vh;
+  }
+}
+
+/* wild life styles  */
+/* header */
+header img {
+  max-width: 25%;
+}
+
+header .logo,
+header .active {
+  color: #B22222;
+  font-weight: bold;
+}
+
+header a {
+  font-size: 1.2rem;
+}
+
+/* main */
+.breadcrumb a {
+  text-decoration: none;
+  padding: .5em;
+}
+
+/* content */
+.introduction h1,
+.cols,
+.animal-class {
+  text-align: center;
+  color: #B22222;
+  letter-spacing: 2px;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.row {
+  cursor: pointer;
+}
+
+.animal-class {
+  margin: 1.5em 0;
+}
+
+.red {
+  color: #B22222;
+}
+
+.crop {
+  border-radius: 5%;
+  border: 8px solid #DCDCDC;
+}
+
+.introduction p {
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+}
+
+.cols {
+  padding: .5em;
+}
+
+.cols h3,
+.cols p {
+  margin: .8em 0;
+}
+
+.card_img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: fill;
+  margin-top: 1em;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  margin-top: 1em;
+}

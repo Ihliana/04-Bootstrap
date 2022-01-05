@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrap/Handlebars</title>
+
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+      <!-- jQuery -->
+      <script src="B5.1.3/js/jquery-3.6.0.min.js"></script>
+
+      <!-- Handlebars -->
+      <script src="B5.1.3/js/handlebars.min-v4.7.7.js"></script>
+
+      <!-- Bootstrap JS-->
+      <script src="B5.1.3/js/bootstrap.min.js"></script>
+
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="B5.1.3/css/bootstrap.css">
+
+      <!-- Stylesheet-->
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div id="content">
+      <!-- here will be the content
+      filled from JS and Handlebars -->
+  </div>
+
+
+
+  <!-- Handlebars template -->
+  <script id="intro_template" type="text/x-handlebars-template">
+
+    <div class="row">
+      <div class="col-md-6 bootstrap">
+        <h1>{{titleB}}</h1>
+        <p>{{text1B}}</p>
+        <p>{{text2B}}</p>
+
+        <img src="{{srcB}}" alt="violet and white B letter">
+      </div>
+
+      <div class="col-md-6 handlebars">
+        <h1>{{titleH}}</h1>
+        <p>{{text1H}}</p>
+        <p>{{text2H}}</p>
+
+        <img src="{{srcH}}" alt="moustach on a stick with heading">
+      </div>
+
+    </div><!-- row's end -->
+
+    <div class="row">
+      <div class="col-md-12 continue">
+        <a class="next_page"  href="wildL.html" target="_blank">{{text3}}</a>
+      </div>
+    </div><!-- row's end -->
+
+  </script> <!-- end of Handlebars template -->
+
+
+
+  <script type="text/javascript" src="js/introData.js"></script>
+  <script type="text/javascript" src="js/intro.js"></script>
+
+
+</body>
+</html>
